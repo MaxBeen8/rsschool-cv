@@ -1,1 +1,1 @@
-# rsschool-cv
+https://MaxBeen8.github.io/rsschool-cv/cv
