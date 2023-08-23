@@ -1,3 +1,7 @@
+.background {
+  background: linear-gradient(to right, rgb(181, 181, 216), rgb(109, 150, 178));
+}
+
 .aside {
   color: rgb(255, 255, 255);
   background: linear-gradient(to right, rgb(88, 88, 90), rgb(0, 0, 0));
