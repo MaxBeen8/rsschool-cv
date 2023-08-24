@@ -1,6 +1,7 @@
-.background {
-  background: linear-gradient(to right, rgb(181, 181, 216), rgb(109, 150, 178));
-}
+@font-face {
+  font-family: Roboto;
+   src: url("assets/fonts/Roboto.ttf");
+ }
 
 .aside {
   color: rgb(255, 255, 255);
@@ -8,6 +9,7 @@
 }
 
 .alignment {
+  background: linear-gradient(to right, rgb(181, 181, 216), rgb(109, 150, 178));
   display: flex;
   flex-direction: row-reverse;
 }
@@ -17,9 +19,11 @@
   height: 300px;
 }
 
-.head {
+.header {
   background-color: aquamarine;
-  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .margin {
@@ -58,6 +62,10 @@ h1{
   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
 
+#ul {
+  padding-left: 15px;
+}
+
 
 .star {
   display: flex;
@@ -71,4 +79,34 @@ h1{
   height: 20px;
   background-color: rgb(193, 193, 193);
   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.body {
+  margin: 0 auto;
+  width: 70%;
+  font-family: 'Roboto';
+}
+
+
+.ul {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.Maksim {
+  margin-left: 80px;
+}
+
+.footer {
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(160, 215, 252));
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hobby {
+  margin-left: 50px;
+  margin-right: 20px;
 }
