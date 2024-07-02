@@ -1,5 +1,5 @@
 # Maksim Kandratsiuk
-![avatar](/chelovechek_4158.jpg)
+![avatar](chelovechek_4158.jpg)
 
 ## Contacts:
  1. https://t.me/Waul888
